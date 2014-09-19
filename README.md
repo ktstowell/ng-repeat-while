@@ -13,7 +13,8 @@ Usage
 It will simply run as long as the provided expression evaluates to truthiness.
 Exposes and $index scope variable, just like normal ng-repeat.
 
-<p ng-repeat-while="$index < $scope.foo">Repeated: {{$index+1}} times!</p>
+<pre><code>&lt;p ng-repeat-while="$index &lt; foo.bar.baz"&gt;Repeated: <span>{</span>{$index+1<span>}</span>} times!&lt;/p&gt;</code>
+        </pre>
 
 Demo
 ====
